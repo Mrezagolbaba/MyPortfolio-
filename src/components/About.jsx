@@ -12,22 +12,23 @@ function About() {
                         <br className="hidden lg:inline-block" />I love to build amazing
                         apps.
                     </h1>
-                    <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                    <p className="mb-8 leading-relaxed text">
+                        Full-stack software engineer ( JavaScript, Typescript, Reactjs, Nodejs, MongoDb) experienced in working with international teams and clients, seeking a new challenge
+                        to build novel products.
                     </p>
                     <div className="flex justify-center">
-                        <a
-                            href="#contact"
-                            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            Work With Me
-                        </a>
-                        <a
-                            href="#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            See My Past Work
-                        </a>
+                        <div className="b  mx-auto h-16 w-64 flex justify-center items-center">
+                            <div
+                                className="i h-16 w-64 bg-green-600 items-center rounded-2xl shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                            </div>
+                            <a href="#contact" className="text-center text-white font-semibold z-10 pointer-events-none">Work With Me!</a>
+                        </div>
+                        <div className="b mx-auto h-16 w-64 flex justify-center items-center ml-6">
+                            <div
+                                className="i h-16 w-64 bg-gradient-to-br from-yellow-400 to-yellow-600 items-center rounded-full shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                            </div>
+                            <a href="#projects" className="text-center text-white font-semibold z-10 pointer-events-none">See My Past Work</a>
+                        </div>
                     </div>
                 </div>
                 <div className="flex items-center lg:max-w-lg lg:w-full md:w-1/2 md:pl-24">
