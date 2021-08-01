@@ -2,7 +2,6 @@ import Hero from '../assets/mongodb.svg'
 import Hero2 from '../assets/node_icon.svg'
 import Hero3 from '../assets/react.svg'
 import Hero4 from '../assets/expressjs.svg'
-import './styles.css'
 function About() {
     return (
         <section className="about">
