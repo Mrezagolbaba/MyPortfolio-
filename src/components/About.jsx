@@ -2,11 +2,12 @@ import Hero from '../assets/mongodb.svg'
 import Hero2 from '../assets/node_icon.svg'
 import Hero3 from '../assets/react.svg'
 import Hero4 from '../assets/expressjs.svg'
+import './styles.css'
 function About() {
     return (
-        <section id="about">
+        <section className="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <div className="lg:flex-grow  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Mohamadreza.
                         <br className="hidden lg:inline-block" />I love to build amazing
@@ -30,32 +31,25 @@ function About() {
                         </a>
                     </div>
                 </div>
-                <div className="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="flex items-center lg:max-w-lg lg:w-full md:w-1/2 md:pl-24">
                     <img
-                        width={120}
-                        height={120}
-                        className="object-cover object-center rounded"
+                        className="md:w-20 h-20  object-cover object-center rounded"
                         alt="hero"
                         src={Hero}
+
                     />
                     <img
-                        width={120}
-                        height={120}
-                        className="object-cover object-center rounded"
+                        className="md:w-20 h-20  object-cover object-center rounded"
                         alt="hero"
                         src={Hero4}
                     />
                     <img
-                        width={120}
-                        height={120}
-                        className="object-cover object-center rounded"
+                        className=" md:w-20 h-20  object-cover object-center rounded"
                         alt="hero"
                         src={Hero3}
                     />
                     <img
-                        width={120}
-                        height={120}
-                        className="object-cover object-center rounded"
+                        className="md:w-20 h-20 object-cover object-center rounded"
                         alt="hero"
                         src={Hero2}
                     />
