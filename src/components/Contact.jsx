@@ -37,7 +37,7 @@ function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.7)" }}
-                         src="https://www.google.com/maps/embed/v1/place?q=Karaj,golshahr,jamshidi&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12047.402225971364!2d28.8287921818792!3d40.98475311884837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa3481cc0d657%3A0x214ae171aea5298e!2zQXRha8O2eSA3LTgtOS0xMCwgMzQxNTggQmFrxLFya8O2eS_EsHN0YW5idWwsIFR1cmtleQ!5e0!3m2!1sen!2sde!4v1627805433651!5m2!1sen!2sde"
                     />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/3 px-6">
@@ -45,8 +45,9 @@ function Contact() {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">
-                                 Golshahr St. <br />
-                                Karaj, Alborz, Iran
+                                Ataköy 7-8-9-10 <br />
+                                34158 Bakırköy/ Istanbul
+                                Turkey
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -59,7 +60,7 @@ function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">+98-935-0648070</p>
+                            <p className="leading-relaxed">+90-537-3396011</p>
                         </div>
                     </div>
                 </div>
